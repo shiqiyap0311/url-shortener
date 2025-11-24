@@ -8,7 +8,9 @@ A simple and beautiful URL Shortener web app built using:
 - No frameworks required
 
 This project creates short URLs like:
+
 Input: https://t4jcxvyb4k3.sg.larksuite.com/docx/HBtCdxW0WoUhgxxQplgl0cSDg8d
+
 Output: http://localhost/url-shortener/redirect.php?c=Ab12Xy
 
 ---
@@ -60,4 +62,5 @@ CREATE TABLE urls (
     long_url TEXT,
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
+
 
